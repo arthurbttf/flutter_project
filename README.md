@@ -1,16 +1,20 @@
-# rede_social
+# Feed em flutter
 
-A new Flutter project.
+Este feed é um projeto que interage com uma API Rest para obter templates de posts e comentários, e então atribuindo-os a um feed parecido com o Reddit.
 
-## Getting Started
+## :toolbox: Packages Utilizadas:
+ - [modular](https://pub.dev/packages/flutter_modular)
+ - [mobx](https://pub.dev/packages/flutter_mobx)
+ - [mobx codegen](https://pub.dev/packages/mobx_codegen)
+ - [dio](https://pub.dev/packages/dio)
+ - [build runner](https://pub.dev/packages/build_runner)
+## API Utilizada:
+ - [JSON placeholder](https://jsonplaceholder.typicode.com/)
+ 
+## :pushpin: Objetivos do projeto
+ - Listar posts e comentários em cards :heavy_check_mark:
+ - Fazer uso do Dio para obter os dados :heavi_check_mark:
+ - Fazer uso do mobx :heavy_check_mark:
+ - Fazer uso do modular :heavy_check_mark:
+ - Fazer tela de login 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
