@@ -1,6 +1,6 @@
 # Feed em flutter
 
-Este feed é um projeto que interage com uma API Rest para obter templates de posts e comentários, e então atribuindo-os a um feed parecido com o Reddit.
+Este feed é um projeto que interage com uma API Rest para obter templates de posts e comentários, e então atribuindo-os a um feed.
 
 ## :toolbox: Packages Utilizadas:
  - [modular](https://pub.dev/packages/flutter_modular)
