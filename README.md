@@ -1,9 +1,8 @@
 # Feed em flutter
 
-Este feed é um projeto que interage com uma API Rest para obter templates de posts e comentários, e então atribuindo-os a um feed.
+Este feed é um projeto que interage com uma API Rest para obter templates de posts e comentários, e então atribuindo-os a um feed. Este projeto utiliza Flutter 3.1, Dart 2.19.0 e DevTools 2.15.0
 
 ### Rodando o projeto localmente
- - Este projeto utiliza Flutter 3.1, Dart 2.19.0 e DevTools 2.15.0
  - Apague CMakeCache.txt em /build/linux/x64/debug/
  - Vá para o diretório do projeto e execute `flutter clean` e `flutter create .`
  - Agora o projeto executará normalmente.
