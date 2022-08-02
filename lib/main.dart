@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.purple,
-        scaffoldBackgroundColor: Color.fromARGB(255, 22, 11, 19),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 22, 11, 19),
       ),
       debugShowCheckedModeBanner: false,
       routeInformationParser: Modular.routeInformationParser,
-      routerDelegate: Modular.routerDelegate,
+      routerDelegate: Modular.routerDelegate, //delega rotas para o modular
     );
   }
 }

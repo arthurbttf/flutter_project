@@ -1,4 +1,0 @@
-#Sun Jul 31 01:35:38 BRT 2022
-base.0=/home/arthur/esig/rede_social/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

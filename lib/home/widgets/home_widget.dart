@@ -15,15 +15,14 @@ class PostWidget extends StatefulWidget {
 }
 
 class _PostWidgetState extends State<PostWidget> {
+  int contador = 0;
   @override
   Widget build(BuildContext context) {
-    int contador = 0;
     return Padding(
       padding: const EdgeInsets.all(1),
       child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
-          //set border radius more than 50% of height and width to make circle
         ),
         color: Colors.black,
         child: Padding(

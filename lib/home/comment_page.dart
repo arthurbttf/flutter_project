@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-
 import 'package:rede_social/home/controllers/home_controller.dart';
 import 'package:rede_social/home/widgets/comment_widget.dart';
 
@@ -25,7 +24,6 @@ class _MyCommentPageState extends State<MyCommentPage> {
   _MyCommentPageState(this.userid);
   @override
   void initState() {
-    controller.listarPost();
     controller.listarComments();
     super.initState();
   }
@@ -34,8 +32,7 @@ class _MyCommentPageState extends State<MyCommentPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Commenttpage'),
-        //backgroundColor: Color(0xff301934),
+        title: const Text('Comment tpage'),
       ),
       body: Observer(builder: (_) {
         return ListView(

@@ -5,6 +5,7 @@ import 'package:rede_social/home/repositories/page_repository.dart';
 part 'page_controller.g.dart';
 //é aqui que se usa o build_runner
 
+// ignore: library_private_types_in_public_api
 class HomeController = _HomeControllerBase with _$HomeController;
 
 abstract class _HomeControllerBase with Store {

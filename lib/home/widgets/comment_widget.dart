@@ -27,7 +27,7 @@ class _CommentWidgetState extends State<CommentWidget> {
         child: Card(
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-          color: Color.fromARGB(255, 10, 10, 10),
+          color: const Color.fromARGB(255, 10, 10, 10),
           child: Padding(
             padding: const EdgeInsets.all(15),
             child: Column(
@@ -37,6 +37,7 @@ class _CommentWidgetState extends State<CommentWidget> {
               children: [
                 Row(
                   children: [
+                    // ignore: sized_box_for_whitespace
                     Container(
                       width: 35,
                       height: 35,
