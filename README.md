@@ -17,3 +17,10 @@ Este feed é um projeto que interage com uma API Rest para obter templates de po
  - Fazer uso do mobx :heavy_check_mark:
  - Fazer uso do modular :heavy_check_mark:
  - Fazer tela de login 
+
+### Rodando o projeto localmente
+ - Apague CMakeCache.txt em /build/linux/x64/debug/
+ - Vá para o diretório do projeto e execute
+    flutter clean
+    flutter create .
+ - Agora o projeto executará normalmente.
